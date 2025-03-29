@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer'
 import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const browser = await puppeteer.launch({ headless: 'new' })
+  const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
 
   await page.goto('https://news.google.com/topstories?hl=es-419&gl=AR&ceid=AR:es-419', {
