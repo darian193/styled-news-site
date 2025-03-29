@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/api/infobae/route": "app/api/infobae/route.js",
+  "/api/lanacion/route": "app/api/lanacion/route.js",
+  "/api/dolar-blue/route": "app/api/dolar-blue/route.js",
+  "/api/pagina12/route": "app/api/pagina12/route.js"
+}
